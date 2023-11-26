@@ -1,8 +1,10 @@
 all: pages
 
 pages:
-	mkdir -p dist
 	rm -rf dist/*
+	mkdir -p dist
+	mkdir -p dist/hiking-101
 	PAGE="home-templ.html" j2 -e PAGE base-templ.html > dist/index.html
+	PAGE="gear-templ.html" j2 -e PAGE base-templ.html > dist/hiking-101/gear.html
 
 .PHONY: pages
