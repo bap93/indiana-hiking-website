@@ -8,6 +8,7 @@
     object-position: 0px -120px;
     height: 200px;
 
+
 }
 
 .waterfall{
@@ -17,6 +18,13 @@
     border-color: black;
 }
 
+.falltrees img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 10px -100000000;
+    height: 200px;
+}
+
 footer{
     text-align: center;
     color: #808008;
@@ -24,8 +32,4 @@ footer{
 
 .copyright-footer{
     background-color: rgb(43, 48, 53);
-}
-
-.footer-link{
-    margin-bottom: 20px;
 }
