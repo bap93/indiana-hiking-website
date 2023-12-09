@@ -33,3 +33,7 @@ footer{
 .copyright-footer{
     background-color: rgb(43, 48, 53);
 }
+
+.footer-link{
+    margin-bottom: 20px;
+}
