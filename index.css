@@ -25,6 +25,51 @@
     height: 200px;
 }
 
+.geese img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -150px ;
+    height: 200px;
+}
+
+.brown img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -850px ;
+    height: 200px;
+}
+
+.woods img{
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px -580px;
+    height: 200px;
+}
+
+.resources-list{
+    text-align: center;
+    
+}
+
+.resources-list ul{
+    text-align: left;
+    list-style-position: inside;
+    display: inline-block;
+}
+
+.resources-form{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.resources-form form{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer{
     text-align: center;
     color: #808008;
@@ -37,3 +82,21 @@ footer{
 .footer-link{
     margin-bottom: 20px;
 }
+
+.card{
+    width: 30%;
+    display: inline-block;
+    
+}
+
+.card-deck{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+form{display:flex;
+    flex-direction: column;
+    padding-left:1em;width:60%
+}
+
