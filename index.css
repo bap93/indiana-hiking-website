@@ -111,3 +111,10 @@ form{display:flex;
     padding-left:1em;width:60%
 }
 
+.safety-list{
+    list-style-type: none;
+}
+
+.safety-list li{
+    margin-bottom: 20px;
+}
