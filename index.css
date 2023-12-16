@@ -5,10 +5,15 @@
 .home-image img{
     width: 100%; 
     object-fit: cover;
-    object-position: 0px -120px;
+    
     height: 200px;
 
 
+}
+
+.home-image img.desktop{
+
+    object-position: 0px -120px;
 }
 
 .waterfall{
@@ -21,29 +26,43 @@
 .falltrees img{
     width: 100%;
     object-fit: cover;
-    object-position: 10px -100000000;
+
     height: 200px;
 }
 
 .geese img {
     width: 100%;
     object-fit: cover;
-    object-position: 0px -150px ;
+    
     height: 200px;
+}
+
+.geese img.desktop{
+
+    object-position: 0px -150px ;
 }
 
 .brown img{
     width: 100%;
     object-fit: cover;
-    object-position: 0px -850px ;
+    
     height: 200px;
+}
+
+.brown img.desktop{
+
+    object-position: 0px -850px ;
 }
 
 .woods img{
     width: 100%;
     object-fit: cover;
-    object-position: 0px -580px;
+   
     height: 200px;
+}
+
+.woods img.destop{
+    object-position: 0px -580px;
 }
 
 .resources-list{
@@ -84,7 +103,9 @@ footer{
 }
 
 .card{
+    /*
     width: 30%;
+    */
     display: inline-block;
     
 }
@@ -92,11 +113,13 @@ footer{
 .card-deck{
     margin-left: auto;
     margin-right: auto;
-    padding-left: 8%;
+    
 }
 
 .card-deck-back{
+    /*
     padding-left: 27%;
+    */
     margin-left: auto;
     margin-right: auto;
 }
@@ -117,4 +140,29 @@ form{display:flex;
 
 .safety-list li{
     margin-bottom: 20px;
+}
+
+.mobile{
+    display: none;
+}
+
+#myComments,#mySubmit{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:600px){
+
+    .mobile{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .gear-list{
+        display: inline-block;
+        width: 100%;
+    }
 }
